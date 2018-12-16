@@ -1,0 +1,9 @@
+------ MANUAL DE USO -----------
+* Para ingresar notas y profesores se deben incluir datos existentes en las otras tablas.
+* Por temas de tiempo no se incluyeron validaciones de todo tipo (ej numeros negativos).
+* No se puede borrar una nota o colegio debido a que estan enlazados a las otras tablas, ( esta opcion se puede quitar desde la BD).
+  Por esto, si se intenta borrar una nota o colegio, el sistema fallará.
+* Se debe crear la base de datos "bennu" antes de ejecutar los archivos sql, debido a que no reconoce las llaves foreignkey si no esta creada la BD.
+* El estado de profesores se hizo en dato Varchar debido a que no pude hacer el parse correspondiente para ingresar un nuevo profesor desde el mantenedor.
+
+-- Sistema desarrollado en Netbeans IDE 8.2 , Con BD MYSQL (XAMPP).
